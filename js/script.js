@@ -5,10 +5,12 @@ var typed = new Typed(".typing-text",{
     loop : true
 })
 
-document.getElementById('hamburger').addEventListener('click', function() {
-    const nav = document.querySelector('.nav');
+const mobileMenu = document.getElementById('mobile-menu');
+const nav = document.querySelector('.nav');
+
+mobileMenu.addEventListener('click', () => {
     nav.classList.toggle('active');
-  });
+});
 
 function tilt(event, element) {
     // Get the center of the element
