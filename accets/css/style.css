@@ -727,7 +727,7 @@ header .nav a.active {
 @media (max-width:690px) {
   .education .education-container .clg-1 {
     flex-direction: column;
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 
