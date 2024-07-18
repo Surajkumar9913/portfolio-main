@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" 
+    content="Welcome to Suraj's Portfolio. Full-Stack Web Developer and Front-end Developer  " />
   <meta name="keywords"
     content="suraj kumar, portfolio,surajyuva, yuva, surajkumaryuva, yuva2000, suraj-kumar2000, Developer, suraj, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
-  <meta name="description" content="Welcome to Suraj's Portfolio. Full-Stack Web Developer and Front-end Developer  " />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Cascading Style Sheet -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Font-awesome CDN link -->
@@ -44,9 +46,9 @@
     <div id="particles-js"></div>
 
     <div class="content">
-      <h2>Hi, I Am <br /> <span>Suraj</span> </h2>
-      <p> And I'm a <span class="typing-text"></span></p>
-      <a href="#about" class="btn"><span>About Me</span>
+      <h2 data-aos="fade-down" >Hi, I Am <br /> <span>Suraj</span> </h2>
+      <p data-aos="fade-down" > And I'm a <span class="typing-text"></span></p>
+      <a data-aos="fade-down" href="#about" class="btn"><span>About Me</span>
         <i class="fas fa-arrow-circle-down"></i>
       </a>
       <div class="socials">
@@ -62,7 +64,7 @@
         </ul>
       </div>
     </div>
-    <div class="image">
+    <div class="image" data-aos="fade">
       <img draggable="false" class="tilt" onmousemove="tilt(event, this)" src="assets/img/hero.jpg" alt="">
     </div>
   </section>
@@ -75,20 +77,20 @@
     </din>
     <div class="row">
 
-      <div class="about-img">
+      <div class="about-img"  data-aos="fade-left">
         <img onmousemove="tilt(event, this)" src="assets/img/img_1.jpg" alt="">
       </div>
       <div class="about-content">
 
-        <h1>I'M Suraj</h1>
-        <span>Web Developer</span>
-        <p class="main">I am a Web developer. I am an Information Technology Post graduated from Uttaranchal University,
+        <h1 data-aos="fade-down" >I'M Suraj</h1>
+        <span data-aos="fade" >Web Developer</span>
+        <p data-aos="fade-down" class="main">I am a Web developer. I am an Information Technology Post graduated from Uttaranchal University,
           Dehradun. I
           am very passionate about improving my coding skills & developing applications & websites. I build WebApps and
           Websites using Modern Technologies. Working for myself to improve my skills. Love to build clones.</p>
-        <p><span>Email</span> : surajyuva2000@gmail.com</p>
-        <p><span>Place</span> : Mohali, Punjab, India</p>
-        <a class="resume-btn"
+        <p data-aos="fade-down" ><span>Email</span> : surajyuva2000@gmail.com</p>
+        <p data-aos="fade-down" ><span>Place</span> : Mohali, Punjab, India</p>
+        <a data-aos="fade-down" class="resume-btn"
           href="https://drive.google.com/file/d/1RUUWNuLLyfMeFAW290lGTqIthNTD7MTe/view?usp=drive_link"
           target="_blank">Resume<i class="fa-solid fa-angle-right"></i></a>
 
@@ -106,8 +108,8 @@
 
     <div class="skills-content">
 
-      <div class="column">
-        <div class="skills-bar">
+      <div data-aos="fade" class="column">
+        <div data-aos="fade-left" class="skills-bar">
           <div class="bar">
             <div class="skills-names">
               <i class="fa-brands fa-html5"></i>
@@ -118,7 +120,7 @@
           </div>
         </div>
 
-        <div class="skills-bar">
+        <div data-aos="fade-right" class="skills-bar">
           <div class="bar">
             <div class="skills-names">
               <i class="fa-brands fa-html5"></i>
@@ -129,7 +131,7 @@
           </div>
         </div>
 
-        <div class="skills-bar">
+        <div data-aos="fade-left" class="skills-bar">
           <div class="bar">
             <div class="skills-names">
               <i class="fa-brands fa-html5"></i>
@@ -140,7 +142,7 @@
           </div>
         </div>
 
-        <div class="skills-bar">
+        <div data-aos="fade-right" class="skills-bar">
           <div class="bar">
             <div class="skills-names">
               <i class="fa-brands fa-html5"></i>
@@ -152,7 +154,7 @@
         </div>
 
       </div>
-      <div class="skills-img">
+      <div data-aos="fade-down" class="skills-img">
         <img src="assets/img/work_1.jpg" alt="">
       </div>
     </div>
@@ -168,7 +170,7 @@
     </div>
     <div class="education-container">
 
-      <div class="clg-1">
+      <div data-aos="fade-right" class="clg-1">
         <div class="clg-1-img">
           <img src="assets/img/mca.jpg" alt="">
         </div>
@@ -179,7 +181,7 @@
         </div>
       </div>
 
-      <div class="clg-1">
+      <div data-aos="fade-left" class="clg-1">
         <div class="clg-1-img">
           <img src="assets/img/bsc1.jpg" alt="">
         </div>
@@ -203,25 +205,25 @@
 
     <div class="work-container">
 
-      <a href="https://surajkumar9913.github.io/portfolio-main/" target="_blank" class="projects">
+      <a data-aos="fade-down" href="https://surajkumar9913.github.io/portfolio-main/" target="_blank" class="projects">
         <div class="work-image">
           <img src="assets/img/prorect1.jpg" alt="">
         </div>
         <h4>Portfolio Website</h4>
       </a>
-      <a href="#" target="_blank" class="projects">
+      <a data-aos="fade-down" href="#" target="_blank" class="projects">
         <div class="work-image">
           <img src="assets/img/project2.jpg" alt="">
         </div>
         <h4>EasyMart</h4>
       </a>
-      <a href="https://surajkumar9913.github.io/todo-react-main/" target="_blank" class="projects">
+      <a data-aos="fade-down" href="https://surajkumar9913.github.io/todo-react-main/" target="_blank" class="projects">
         <div class="work-image">
           <img src="assets/img/project3.jpg" alt="">
         </div>
         <h4>ToDo</h4>
       </a>
-      <a href="https://surajkumar9913.github.io/timer/" target="_blank" class="projects">
+      <a data-aos="fade-down" href="https://surajkumar9913.github.io/timer/" target="_blank" class="projects">
         <div class="work-image">
           <img src="assets/img/project4.jpg" alt="">
         </div>
@@ -239,7 +241,7 @@
     <div class="contact-heading">
       <h1> <i class="fa-solid fa-headset"></i>Contact <span>Me</span></h1>
     </div>
-    <div class="form">
+    <div data-aos="fade-down" class="form">
       <div class="contact-img">
         <img src="assets/img/contact.jpg" alt=" ">
       </div>
@@ -313,6 +315,10 @@
 
   <!-- All Major JavaScripts -->
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+
+  </script>
   <script src="js/script.js"></script>
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
