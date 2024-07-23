@@ -177,7 +177,7 @@ header .nav a.active {
 
 .home .content {
   flex: 1 1 40rem;
-  padding: 6rem 0 0 4rem;
+  padding: 6rem 0 0 1rem;
   z-index: 1;
 }
 
@@ -645,12 +645,12 @@ header .nav a.active {
   }
 
   .skills .skills-img {
-    width: 75%;
+    width: 70%;
     margin: auto;
   }
 
   .skills .skills-img img {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -929,6 +929,7 @@ header .nav a.active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
 }
 
@@ -936,7 +937,7 @@ header .nav a.active {
   background-color: #dbedf1;
   padding: 1rem;
   margin: 1rem;
-  width: 75%;
+  width: 90%;
   border-radius: .3rem;
   border: 1px solid rgb(130, 129, 129);
   display: flex;
@@ -1001,12 +1002,17 @@ header .nav a.active {
     width: 100%;
   }
 }
+@media (min-width: 560px) and (max-width:860px){
+  .contact .form{
+    width: 90%;
+  }
+}
 
-@media (max-width : 850px) {
+/* @media (max-width : 850px) {
   .contact .form {
     width: 100%;
   }
-}
+} */
 
 /* Contact Media query end */
 /* Contact Section css end */
@@ -1023,7 +1029,7 @@ header .nav a.active {
 
 .footer .footer-container {
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-around;
   column-gap: 10rem;
   /* align-items: center; */
   margin-bottom: 1rem;
@@ -1173,7 +1179,7 @@ header .nav a.active {
 .modal .modal-content {
   background-color: #dbedf1;
   margin: 15% auto;
-  width: 40%;
+  width: 60%;
   padding: 1rem;
 
 }
